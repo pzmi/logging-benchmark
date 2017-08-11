@@ -50,4 +50,4 @@ Memory: 6987MiB / 16000MiB
 ### To wrap or not to wrap
 
 The difference between conditional and not conditional is rather negligible.
-If you consider wrapping your DEBUG level logs in `isDebug` conditions and you don't log 10 000 debug messages each action you'd probably be better of optimizing some I/O operation, e.g. a database call.
+If you consider wrapping your DEBUG level logs in `isDebug` conditions and you don't log 10 000 debug messages each action you'd probably be better off optimizing some I/O operation, e.g. a database call.

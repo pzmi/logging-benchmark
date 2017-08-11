@@ -44,3 +44,10 @@ Memory: 6987MiB / 16000MiB
 | LogBenchmark.onePlaceholder                | avgt  | 20  | 12.981           | ±     0.076        | ns/op |
 | LogBenchmark.plain                         | avgt  | 20  | 56.932           | ±     0.019        | ns/op |
 | LogBenchmark.plainConditional              | avgt  | 20  | 1673.349         | ±     0.015        | ns/op |
+
+## Conclusion
+
+### To wrap or not to wrap
+
+The difference between conditional and not conditional is rather negligible.
+If you consider wrapping your DEBUG level logs in `isDebug` conditions and you don't log 10 000 debug messages each action you'd probably be better of optimizing some I/O operation, e.g. a database call.

@@ -2,7 +2,9 @@
 
 Benchmark checking different style of logging with emphesis on ommiting unnecessary processing on disabled log levels.
 
-## Hardware specs
+## Setup
+
+### Hardware
 
 OS: Arch Linux x86_64  
 Model: Z170X-Gaming 3  
@@ -10,6 +12,13 @@ Kernel: 4.12.4-1-ARCH
 CPU: Intel i7-6700K (8) @ 4.200GHz  
 GPU: NVIDIA GeForce GTX 1060 6GB  
 Memory: 6987MiB / 16000MiB  
+
+### JDK
+
+openjdk version "1.8.0_144"
+OpenJDK Runtime Environment (build 1.8.0_144-b01)
+OpenJDK 64-Bit Server VM (build 25.144-b01, mixed mode)
+
 
 ## Results
 

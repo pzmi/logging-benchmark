@@ -15,9 +15,9 @@ Memory: 6987MiB / 16000MiB
 
 ### JDK
 
-openjdk version "1.8.0_144"
-OpenJDK Runtime Environment (build 1.8.0_144-b01)
-OpenJDK 64-Bit Server VM (build 25.144-b01, mixed mode)
+openjdk version "1.8.0_144"  
+OpenJDK Runtime Environment (build 1.8.0_144-b01)  
+OpenJDK 64-Bit Server VM (build 25.144-b01, mixed mode)  
 
 
 ## Results
